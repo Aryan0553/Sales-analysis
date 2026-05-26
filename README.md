@@ -69,3 +69,4 @@ df['revenue_usd'] = df['final_price_usd'] * df['units_sold']
 
 # Save cleaned file
 df.to_csv("final_cleaned_sales_data.csv", index=False)
+
